@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding07-member-parent.iml" filepath="$PROJECT_DIR$/atcrowdfunding07-member-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding08-member-eureka/atcrowdfunding08-member-eureka.iml" filepath="$PROJECT_DIR$/atcrowdfunding08-member-eureka/atcrowdfunding08-member-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding09-member-entity/atcrowdfunding09-member-entity.iml" filepath="$PROJECT_DIR$/atcrowdfunding09-member-entity/atcrowdfunding09-member-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding10-member-mysql-provider/atcrowdfunding10-member-mysql-provider.iml" filepath="$PROJECT_DIR$/atcrowdfunding10-member-mysql-provider/atcrowdfunding10-member-mysql-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding11-member-redis-provider/atcrowdfunding11-member-redis-provider.iml" filepath="$PROJECT_DIR$/atcrowdfunding11-member-redis-provider/atcrowdfunding11-member-redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding12-member-authentication-consumer/atcrowdfunding12-member-authentication-consumer.iml" filepath="$PROJECT_DIR$/atcrowdfunding12-member-authentication-consumer/atcrowdfunding12-member-authentication-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding13-member-project-consumer/atcrowdfunding13-member-project-consumer.iml" filepath="$PROJECT_DIR$/atcrowdfunding13-member-project-consumer/atcrowdfunding13-member-project-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding14-member-order-consumer/atcrowdfunding14-member-order-consumer.iml" filepath="$PROJECT_DIR$/atcrowdfunding14-member-order-consumer/atcrowdfunding14-member-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding15-member-pay-consumer/atcrowdfunding15-member-pay-consumer.iml" filepath="$PROJECT_DIR$/atcrowdfunding15-member-pay-consumer/atcrowdfunding15-member-pay-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding16-member-zuul/atcrowdfunding16-member-zuul.iml" filepath="$PROJECT_DIR$/atcrowdfunding16-member-zuul/atcrowdfunding16-member-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atcrowdfunding17-member-api/atcrowdfunding17-member-api.iml" filepath="$PROJECT_DIR$/atcrowdfunding17-member-api/atcrowdfunding17-member-api.iml" />
+    </modules>
+  </component>
+</project>

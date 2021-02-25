@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="atcrowdfunding02-admin-webui" />
+        <module name="atcrowdfunding14-member-order-consumer" />
+        <module name="atcrowdfunding16-member-zuul" />
+        <module name="atcrowdfunding04-admin-entity" />
+        <module name="atcrowdfunding17-member-api" />
+        <module name="atcrowdfunding08-member-eureka" />
+        <module name="atcrowdfunding06-common-reverse" />
+        <module name="atcrowdfunding10-member-mysql-provider" />
+        <module name="atcrowdfunding09-member-entity" />
+        <module name="atcrowdfunding15-member-pay-consumer" />
+        <module name="atcrowdfunding12-member-authentication-consumer" />
+        <module name="atcrowdfunding05-common-util" />
+        <module name="atcrowdfunding11-member-redis-provider" />
+        <module name="atcrowdfunding13-member-project-consumer" />
+        <module name="atcrowdfunding03-admin-component" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="idea_workspace" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="atcrowdfunding07-member-parent" options="-parameters" />
+      <module name="atcrowdfunding08-member-eureka" options="-parameters" />
+      <module name="atcrowdfunding09-member-entity" options="-parameters" />
+      <module name="atcrowdfunding10-member-mysql-provider" options="-parameters" />
+      <module name="atcrowdfunding11-member-redis-provider" options="-parameters" />
+      <module name="atcrowdfunding12-member-authentication-consumer" options="-parameters" />
+      <module name="atcrowdfunding13-member-project-consumer" options="-parameters" />
+      <module name="atcrowdfunding14-member-order-consumer" options="-parameters" />
+      <module name="atcrowdfunding15-member-pay-consumer" options="-parameters" />
+      <module name="atcrowdfunding16-member-zuul" options="-parameters" />
+      <module name="atcrowdfunding17-member-api" options="-parameters" />
+      <module name="idea_workspace" options="-parameters" />
+    </option>
+  </component>
+</project>

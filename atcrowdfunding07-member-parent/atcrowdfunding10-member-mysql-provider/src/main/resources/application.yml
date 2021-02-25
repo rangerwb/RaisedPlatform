@@ -1,0 +1,24 @@
+server:
+  port: 2000
+
+spring:
+  application:
+    name: atguigu-crowd-mysql
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/project_crowd?serverTimezone=UTC
+    username:
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath*:/mybatis/mapper/*Mapper.xml
+
+logging:
+  level:
+    com.atguigu.crowd: debug
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka

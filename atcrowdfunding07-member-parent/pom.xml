@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.4.RELEASE</version>
+        <relativePath/>
+    </parent>
+    <groupId>com.atguigu.crowd</groupId>
+    <artifactId>atcrowdfunding07-member-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <modules>
+        <module>atcrowdfunding08-member-eureka</module>
+        <module>atcrowdfunding09-member-entity</module>
+        <module>atcrowdfunding10-member-mysql-provider</module>
+        <module>atcrowdfunding11-member-redis-provider</module>
+        <module>atcrowdfunding12-member-authentication-consumer</module>
+        <module>atcrowdfunding13-member-project-consumer</module>
+        <module>atcrowdfunding14-member-order-consumer</module>
+        <module>atcrowdfunding15-member-pay-consumer</module>
+        <module>atcrowdfunding16-member-zuul</module>
+        <module>atcrowdfunding17-member-api</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>atcrowdfunding07-member-parent</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Greenwich.SR5</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.1.4.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>2.1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>1.0.5</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

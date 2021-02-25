@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/atcrowdfunding02-admin-webui" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding06-common-reverse/pom.xml" />
+        <option value="$PROJECT_DIR$/../pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding08-member-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding09-member-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding10-member-mysql-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding11-member-redis-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding12-member-authentication-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding13-member-project-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding14-member-order-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding15-member-pay-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding16-member-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding07-member-parent/atcrowdfunding17-member-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../atcrowdfunding05-common-util/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

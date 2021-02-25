@@ -1,0 +1,26 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: atguigu-crowd-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host:
+  session:
+    store-type: redis
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+
+aliyun:
+  oss:
+    access-key-id:
+    access-key-secret:
+    bucket-domain:
+    bucket-name:
+    end-point:

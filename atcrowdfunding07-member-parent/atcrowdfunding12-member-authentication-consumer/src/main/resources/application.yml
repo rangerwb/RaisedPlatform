@@ -1,0 +1,31 @@
+server:
+  port: 4100
+
+spring:
+  application:
+    name: atguigu-crowd-auth
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host:
+    session:
+      store-type: redis
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+
+short:
+  messages:
+    host:
+    app-code:
+    method: GET
+    path:
+    sign: 1
+    skin: 1
+
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
